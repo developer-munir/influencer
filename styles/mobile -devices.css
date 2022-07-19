@@ -69,4 +69,16 @@ influencers logo styles
     padding-left: 0px;
     padding-right: 0px;
   }
+  /* -----------------------------------------
+populer section styles
+-------------------------------------------- */
+.collections-container{
+  grid-template-columns: repeat(1,1fr);
+}
+.item-img{
+  width: 100%;
+}
+.collections-section{
+  margin-top: 50px;
+}
 }
