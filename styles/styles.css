@@ -190,3 +190,31 @@ populer section styles
   font-weight: 700;
   color: #3a3a3a;
 }
+/* -------------------------
+footer section style
+--------------------- */
+footer{
+  background-color: #0A0826;
+  color: #ffffff;
+  margin-top: 100px;
+}
+.contact-section{
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.contact-section h1{
+  font-size: 24px;
+  font-weight: 700;
+}
+.contact-section p{
+  font-size: 14px;
+  line-height: 1.5em;
+}
+.social-links i{
+  padding-left: 10px;
+  margin-top: 10px;
+}
