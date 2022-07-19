@@ -130,6 +130,7 @@ influencers logo styles
 }
 .logo-item1 img,
 .logo-item2 img {
+  width: 100%;
   padding-top: 14px;
   padding-bottom: 14px;
   padding-left:40px;
