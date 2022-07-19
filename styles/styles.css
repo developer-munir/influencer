@@ -74,7 +74,7 @@ main {
 .journey-thumbnail {
   width: 50%;
 }
-.journey-thumbnail{
+.journey-thumbnail {
   display: flex;
   justify-content: center;
 }
@@ -96,7 +96,7 @@ main {
   color: #ffffff;
   text-align: center;
 }
-.journey-article a:hover{
+.journey-article a:hover {
   background-color: transparent;
   border: 1px solid #3a3a3a;
   color: #3a3a3a;
@@ -106,24 +106,29 @@ main {
   position: relative;
   padding-left: 10px;
   top: 8px;
-  transition: padding-left 1s ;
+  transition: padding-left 1s;
 }
-.right-arrow:hover{
+.right-arrow:hover {
   padding-left: 48px;
-
 }
 /* ------------------------------------------------
 influencers logo styles
 -----------------------------------------------
  */
- .influencers-logo{
-  display:grid;
-  grid-template-columns: repeat(7,1fr);
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 100px;
-  border-top: 1px solid rgba(142, 139, 139, 0.139);
-  border-bottom: 1px solid rgba(142, 139, 139, 0.139);
-  padding: 14px 62px;
-  
- }
+.influencers-logo {
+  margin-top: 50px;
+  display: flex;
+  border-top: 1px solid rgba(92, 85, 85, 0.197);
+  border-bottom: 1px solid rgba(92, 85, 85, 0.197);
+}
+.logo-item1,.logo-item2{
+  display: flex;
+  justify-content: space-evenly;
+}
+.logo-item1 img,
+.logo-item2 img {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left:40px;
+  padding-right: 40px;
+}

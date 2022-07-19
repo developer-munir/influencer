@@ -38,18 +38,18 @@
     height: 257px;
     width: 257px;
   }
-  .journey-article{
+  .journey-article {
     margin-top: 14px;
   }
   .journey-article h1 {
     font-size: 28px;
     text-align: center;
   }
-  .journey-article p{
+  .journey-article p {
     font-size: 14px;
     text-align: center;
   }
-  .journey-article a{
+  .journey-article a {
     display: block;
     text-align: center;
     width: 80%;
@@ -59,9 +59,13 @@
 influencers logo styles
 -----------------------------------------------
  */
-  .influencers-logo{
-    grid-template-columns: repeat(4,1fr);
-   
+  .influencers-logo {
+    flex-wrap: wrap;
+    display: block;
   }
-    
+  .logo-item1 img,
+  .logo-item2 img {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
