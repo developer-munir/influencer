@@ -61,7 +61,7 @@ influencers logo styles
  */
   .influencers-logo{
     grid-template-columns: repeat(4,1fr);
-    
+   
   }
     
 }
