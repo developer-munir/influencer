@@ -112,3 +112,17 @@ main {
   padding-left: 48px;
 
 }
+/* ------------------------------------------------
+influencers logo styles
+-----------------------------------------------
+ */
+ .influencers-logo{
+  display:grid;
+  grid-template-columns: repeat(7,1fr);
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+  border-top: 1px solid rgba(142, 139, 139, 0.139);
+  border-bottom: 1px solid rgba(142, 139, 139, 0.139);
+  padding: 14px 62px;
+ }

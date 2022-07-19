@@ -52,7 +52,14 @@
   .journey-article a{
     display: block;
     text-align: center;
-    padding-top: 5px;
+  }
+  /* ------------------------------------------------
+influencers logo styles
+-----------------------------------------------
+ */
+  .influencers-logo{
+    grid-template-columns: repeat(4,1fr);
+    
   }
     
 }
