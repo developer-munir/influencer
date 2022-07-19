@@ -5,7 +5,7 @@
   .header {
     margin-top: 34px;
     padding-left: 2%;
-    padding-right:2% ;
+    padding-right: 2%;
   }
   .nav-header {
     font-size: 16px;
@@ -13,11 +13,46 @@
     text-align: center;
     width: 100%;
     justify-content: space-between;
-}
-.nav-header-bar {
+  }
+  .nav-header-bar {
     display: block;
   }
   .nav-links ul {
     display: none;
   }
+  /* ---------
+  journey styles
+  ----------- */
+  .journey-container {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .journey-details,
+  .journey-thumbnail {
+    width: 100%;
+  }
+  .journey-thumbnail img {
+    height: 257px;
+    width: 257px;
+  }
+  .journey-article{
+    margin-top: 14px;
+  }
+  .journey-article h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+  .journey-article p{
+    font-size: 14px;
+    text-align: center;
+  }
+  .journey-article a{
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+  }
+    
 }

@@ -10,11 +10,11 @@ body {
   font-family: "Poppins", sans-serif;
   background: #ffffff;
   max-width: 1280px;
+  height: 100vh;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  overflow-x: hidden;
 }
+
 /* -------------------------------------
 header section starts here
 ---------------------------------------- */
@@ -57,7 +57,58 @@ header section starts here
   font-weight: 600;
   color: #3a3a3a;
 }
-.nav-links a:hover{
-    color: red;
+.nav-links a:hover {
+  color: red;
 }
-/*  */
+/* ---------------------------------------
+Journey as influencer styles
+----------------------------------------- */
+main {
+  margin-top: 50px;
+}
+.journey-container {
+  display: flex;
+  align-items: center;
+}
+.journey-details,
+.journey-thumbnail {
+  width: 50%;
+}
+.journey-thumbnail{
+  display: flex;
+  justify-content: center;
+}
+.journey-article h1 {
+  font-size: 52px;
+  font-weight: 700;
+}
+.journey-article p {
+  font-size: 16px;
+  font-weight: 600;
+}
+.journey-article a {
+  background-color: #e02c6d;
+  text-decoration: none;
+  padding: 10px 24px;
+  top: 16px;
+  position: relative;
+  border-radius: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+.journey-article a:hover{
+  background-color: transparent;
+  border: 1px solid #3a3a3a;
+  color: #3a3a3a;
+  font-weight: 600;
+}
+.right-arrow {
+  position: relative;
+  padding-left: 10px;
+  top: 8px;
+  transition: padding-left 1s ;
+}
+.right-arrow:hover{
+  padding-left: 48px;
+
+}
